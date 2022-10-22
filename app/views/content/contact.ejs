@@ -1,0 +1,22 @@
+<link href="./css/form.css" rel="stylesheet" type="text/css">
+<form>
+    <h1>Contact Form</h1>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
+
+    <label for="number">Contact Number:</label><br>
+    <input type="text" id="number" name="number" placeholder="Enter your contact number" required="Required" onfocusout="phonenumber(this.value);"><br>
+
+    <label for="Email">Email:</label><br>
+    <input type="text" id="Email" name="Email" placeholder="Enter E-mail" required="Required" onfocusout="ValidateEmail(this.value);"><br>
+
+    <label for="message">Message:</label><br>
+    <input type="text" id="message" name="message" class="message" placeholder="Enter a message"><br>
+    
+    <br>
+    <input type="submit" value="Send">
+</form>
+<script src="./scripts/form.js"></script>

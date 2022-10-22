@@ -1,0 +1,66 @@
+.banner {
+	    text-align:center;
+	    color:whitesmoke;
+	    text-shadow: black 4px 4px 5px,blue 0 0 30px,darkblue 0 0 5px ;
+  		background: rgba(0, 0, 0, 0.6);
+  		padding-top: 5px;
+  		padding-bottom: 5px;
+		}
+.banner1 {
+	text-align:center;
+	color:whitesmoke;
+	text-shadow: black 4px 4px 5px,blue 0 0 30px,darkblue 0 0 5px ;
+  	background: rgba(0, 0, 0, 0.6);
+  	padding-top: 3px;
+  	padding-bottom: 3px;
+	}
+nav {
+	text-align: center;
+	color:black ;
+	text-shadow: gray 4px 4px 5px,blue 0 0 30px,darkblue 0 0 5px ;
+}
+.myImage {
+  float: left;
+  height: 200px;
+  }
+
+.mission {
+	text-align: center;	
+}
+.map{
+	height: 500px;
+	display: block;  
+margin-left: auto;  
+margin-right: auto;   
+padding: 15px;  
+}
+
+ul.sites li {
+  		background: rgba(205, 205, 247, 0.71);
+  		margin: 5px 1%;
+  		display: block;
+  		width: 48%;
+  		float: left;
+  		text-align: center;
+  		font-size: 20px;
+  		padding: 4px 0px;
+  		height: 300px;
+  	}
+
+ul.sites {
+
+  		padding: 20px;
+  		margin: 0px;
+
+	}
+	ul.bullets li{
+
+	}
+	ul.bullets{
+		list-style-position: inside;
+		list-style-image: url('pngwing.com.png');
+	}
+.columns {
+  columns: 3;
+  widows: 3;
+}

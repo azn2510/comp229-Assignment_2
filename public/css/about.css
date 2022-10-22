@@ -1,0 +1,28 @@
+/* By: Andrew Lavina - 301226078 
+Date: Oct. 21, 2022*/
+
+
+    .banner {
+        background-image: url('https://media.istockphoto.com/vectors/falling-random-numbers-blue-matrix-background-stream-of-decimal-vector-id1142550083?k=20&m=1142550083&s=612x612&w=0&h=YPpMeedyiJiWPL-PJSxg6nCiHDbKcDrYZvwv9UxfMS8=');
+        text-align:center;
+        color:white;
+        text-shadow: black 4px 4px 5px;
+        background-repeat: no-repeat;
+          background-size: cover;
+          height: 150px;
+          padding-top: 20px;
+    }
+    .main {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+    .resume {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+    .andrew {
+        width: 650px;
+        height: 300px;
+    }

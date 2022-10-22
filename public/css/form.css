@@ -1,0 +1,42 @@
+/* By: Andrew Lavina - 301226078 
+Date: Oct. 21, 2022*/
+input:invalid {
+    background: rgb(255,233,233);
+    }
+
+body{
+    text-align:center;
+    margin-bottom: 10px;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+form{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+label{
+    color: white;
+    text-shadow: black 4px 4px 5px ;
+}
+.message{
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.banner {
+	text-align:center;
+	color:whitesmoke;
+    text-shadow: black 4px 4px 5px,blue 0 0 30px,darkblue 0 0 5px ;
+	background: rgba(0, 0, 0, 0.6);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color:aqua;
+}
