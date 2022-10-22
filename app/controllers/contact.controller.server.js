@@ -1,4 +1,4 @@
-import { name } from 'ejs';
+
 import contactModel from '../models/contacts.js';
 
 import { UserDisplayName } from '../utils/index.js';
@@ -15,7 +15,8 @@ export function DisplayContactsList(req, res, next){
 }
 
 export function DisplayContactsAddPage(req, res, next){
-    res.render('index', { title: 'Add Contact', page: 'contact/edit', contact: {}, displayName: UserDisplayName(req) });
+
+    res.render('index', { title: 'Add Contact', page: 'Contact/edit', contact: {}, displayName: UserDisplayName(req) });
 }
 
 export function ProcessContactsAddPage(req, res, next){

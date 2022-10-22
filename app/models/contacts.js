@@ -8,11 +8,7 @@ const ContactSchema = new Schema({
     email: String,
 }, {
     timestamps: true,
-    collection: 'contacts'
+    collection: 'contact'
 });
-
-ContactSchema.index({name: -1});  
-
-
 
 export default mongoose.model('Contact', ContactSchema);
